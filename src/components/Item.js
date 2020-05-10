@@ -7,7 +7,11 @@ const Item = (({item})=>{
     // })
     //console.log(item)
     return(
-    <div className="wyniki ui segment"><img src={item ? item[0].href :null} alt={item ? item[0].rel : null}></img></div>
+    <div className="wyniki ui segment">
+        <h1>{item.data ? item.data[0].title :null}</h1>
+        <img src={item ? item[0].href :null} alt={item ? item[0].rel : null}/>
+        <p>{item.data ? item.data[0].description : null}</p>
+    </div>
     )
 })
 
