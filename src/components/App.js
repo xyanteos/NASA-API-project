@@ -45,9 +45,9 @@ class App extends React.Component{
                 <ItemList items = {this.state.items}/>
                 <div className="zdjecieDnia ui segment">
                     <h3>
-                        Zdjęcie dnia
+                        Pucture of the day:
                     </h3>
-                    <img src={this.state.picOfTheDay} alt="Zdjęcie dnia:"/>
+                    <img src={this.state.picOfTheDay} alt="Picture of the day"/>
                     <p>
                         {this.state.messageOfTheDay}
                     </p>

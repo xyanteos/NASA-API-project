@@ -21,7 +21,7 @@ class SearchBar extends React.Component{
                     <div className="field">
                         <form className="ui form" onSubmit={this.onFormSubmit}>
                             <label>
-                            Wyszukiwanie zdjęcia
+                            Search for info
                             </label>
                             <input type="text" value={this.state.term} onChange={this.onInputChange}/>
                         </form>

@@ -3,7 +3,7 @@ import Item from './Item'
 
 const ItemsList = (({items})=>{
     const renderedList = items.map((item) =>{
-            return <Item item={item.links}/>
+            return <Item item={item}/>
     })
     return(
         <div className="ui relaxed divided list">
