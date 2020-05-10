@@ -1,0 +1,15 @@
+#content {
+    padding: 5vh;
+    width: 80%;
+    margin:auto;
+    
+}
+.zdjecieDnia{
+    text-align: center;
+}
+.wyniki{
+    text-align: center;
+}
+#content img{
+    max-width: 50%;
+}
