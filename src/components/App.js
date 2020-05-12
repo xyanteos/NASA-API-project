@@ -43,7 +43,7 @@ class App extends React.Component{
             <div id="content">
                 <SearchBar onFormSubmit = {this.onTermSubmit}/>
                 <ItemList items = {this.state.items}/>
-                <div className="zdjecieDnia ui segment">
+                <div className="zdjecieDnia ui segment" id = "dzien">
                     <h3>
                         Pucture of the day:
                     </h3>

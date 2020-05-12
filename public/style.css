@@ -2,14 +2,22 @@
     padding: 5vh;
     width: 80%;
     margin:auto;
-    
+
 }
 .zdjecieDnia{
     text-align: center;
+}
+#dzien, #search{
+    background: lightgrey;
 }
 .wyniki{
     text-align: center;
 }
 #content img{
-    max-width: 50%;
+    max-width: 70%;
+}
+
+body { 
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(172,121,163,1) 30%, rgba(248,255,216,1) 100%);
 }
