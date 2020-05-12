@@ -6,6 +6,10 @@
 }
 .zdjecieDnia{
     text-align: center;
+    
+}
+.zdjecieDnia img{
+    max-height: 60vh;
 }
 #dzien, #search{
     background: lightgrey;
