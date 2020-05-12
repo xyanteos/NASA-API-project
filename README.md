@@ -1,68 +1,49 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<h1 id="recipe-react-api">Recipe React API</h1>
+<blockquote>
+<p>NASA knowledge base API created with React, Node.js.</p>
+</blockquote>
+<h2 id="table-of-contents">Table of contents</h2>
+<ul>
+<li><a href="#general-info">General info</a></li>
+<li><a href="#screenshots">Screenshots</a></li>
+<li><a href="#technologies">Technologies</a></li>
+<li><a href="#setup">Setup</a></li>
+<li><a href="#features">Features</a></li>
+<li><a href="#status">Status</a></li>
+<li><a href="#inspiration">Inspiration</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+<h2 id="general-info">General info</h2>
+<blockquote>
+<p>My goal was to make a reactive site with the usage of React technology.<br>
+It was necesary for me to concrete my knowledge within the framework.<br>
+My API searches through NASA database via their APIs and shows related posts with their pictures, titles and insides.<br>
+To get my API key I used their site : <a href="https://api.nasa.gov">NASA Open APIs</a>.</p>
+</blockquote>
+<h2 id="screenshots">Screenshots</h2>
+<p><img src="https://i.postimg.cc/d1J6nv75/Stronka.png" alt="Example.png"></p>
+<h2 id="technologies">Technologies</h2>
+<ul>
+<li>React - version 16.13.1</li>
+<li>Node.js - version 12.14.1</li>
+</ul>
+<h2 id="setup">Setup</h2>
+<p>To run this Project, install it locally and use npm.<br>
+You must have Node.js to run it.</p>
+<pre><code>$ npm install
+$ npm start
+</code></pre>
+<h2 id="features">Features</h2>
+<p>List of features ready and TODOs for future development</p>
+<ul>
+<li>Welcome page contains image of the day with its details.</li>
+<li>NASA API allows us to earch for any term related and throws back corresponding posts.</li>
+</ul>
+<p>To-do list:</p>
+<ul>
+<li>Integrate project into portfolio site.</li>
+<li>Make posts clickable to display more info.</li>
+</ul>
+<h2 id="status">Status</h2>
+<p>Project is:<br>
+in progress</p>
