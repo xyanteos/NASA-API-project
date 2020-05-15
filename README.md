@@ -1,4 +1,4 @@
-<h1 id="recipe-react-api">Recipe React API</h1>
+<h1 id="nasa-react-api">NASA React API</h1>
 <blockquote>
 <p>NASA knowledge base API created with React, Node.js.</p>
 </blockquote>
